@@ -1,0 +1,36 @@
+
+#welcome {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../img/welcome.jpg'); /* cesta k vašemu obrázku */
+    background-size: cover; /* přizpůsobí obrázek tak, aby pokryl celou stránku */
+    background-position: center; /* zarovná obrázek na střed */
+    background-repeat: no-repeat; /* zabrání opakování obrázku */
+    height: 100vh; /* nastaví výšku těla na 100% výšky okna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-container {
+    text-align: center;
+    margin-top: 8%;
+    margin-right: 2%;
+}
+
+.welcome-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* poloprůhledné pozadí */
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', serif; /* použití specifikovaného fontu */
+}
+
+.welcome-button:hover {
+    background-color: rgba(0, 0, 0, 0.7); /* tmavší při najetí myší */
+}
